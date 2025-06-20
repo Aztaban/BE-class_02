@@ -2,7 +2,7 @@ section .data
 	msg		db "Hello world!", 10
 
 section .text
-global _start
+	global _start
 
 _start:
 	mov		rax, 1
@@ -11,6 +11,6 @@ _start:
 	mov		rdx, 13
 	syscall
 
-	mov		rax, 60
 	mov		rdi, 4242
+	mov		rax, 60
 	syscall
