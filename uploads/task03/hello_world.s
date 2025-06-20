@@ -1,5 +1,5 @@
 section .data
-	msg		db "Hello world!", 10
+	msg		db "Hello world!"
 	len		equ $ -msg
 
 section .text
